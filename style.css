@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* root component for colors  */
+:root {
+    --light_color: #949494;
+    --name-text: #636363;
+    --button-affirm: #32C1FF;
+    --button-text: #FFF;
+}
+
+/* outer division  */
+.outer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* container  */
+.container {
+    height: 50vh;
+    width: 80vw;
+    display: flex;
+    margin: auto;
+}
+
+/* divs inside the containers   */
+.container>div {
+    width: 33%;
+    height: 100%;
+    padding: 1rem 0.5rem;
+}
+
+/* paragraphs  */
+.para {
+    font-size: 16px;
+}
+
+/* heading  */
+.div1 h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#label_text {
+    margin-top: 2.8em;
+}
+
+#light_text {
+    font-size: 20px;
+    color: var(--light_color);
+    margin-top: 0.2rem;
+}
+
+.product_name {
+    color: var(--light_color);
+    font-size: 24px;
+}
+
+.price {
+    color: var(--name-text);
+    text-align: right;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.price sup {
+    font-size: 15px;
+}
+
+/* button  */
+.btn {
+    height: 64px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background: var(--button-affirm);
+    color: var(--button-text);
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+}
+
+/* price list items  */
+.price_list {
+    border: 1px solid lightgray;
+    height: 90%;
+    width: 90%;
+    margin: 0.5rem;
+}
+
+/* price list heading  */
+.price_list h2 {
+    text-align: center;
+}
+
+.list {
+    width: 100%;
+    padding: 0.2rem;
+}
+
+.list h2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+/* container second  */
+.deal_alerts {
+    width: 66% !important;
+    padding: 3rem 0 !important;
+}
+
+/* title tag  */
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* setting up input  */
+.deal_alerts input {
+    width: 100%;
+    height: 1.8rem;
+}
+
+/* styles buttons  */
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
