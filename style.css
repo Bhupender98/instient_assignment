@@ -21,10 +21,11 @@
 
 /* container  */
 .container {
-    height: 50vh;
+    min-height: 50vh;
     width: 80vw;
     display: flex;
     margin: auto;
+    border: 1px solid #828282;
 }
 
 /* divs inside the containers   */
@@ -87,10 +88,11 @@
 
 /* price list items  */
 .price_list {
-    border: 1px solid lightgray;
+    border: 1px solid #828282;
     height: 90%;
     width: 90%;
     margin: 0.5rem;
+    padding: 15px;
 }
 
 /* price list heading  */
